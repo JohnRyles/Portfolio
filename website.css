@@ -1,9 +1,16 @@
+/*
+   This is the .css styling sheet for the
+   website of John Ryles, which is found at
+   http://www.cs.uky.edu/~jwryle2/home.html
+*/
+
 /* Background Color For Site */
 html
 {
 	background-color: Black;
 }
 
+/* Set header as Silver with White text */
 header
 {
 	border-style: outset;
@@ -13,6 +20,7 @@ header
 	margin: 10px;
 }
 
+/* Set h1 headers as all CAPS & Black text */
 h1
 {
 	text-align: center;
@@ -20,6 +28,7 @@ h1
 	color: Black;
 }
 
+/* Set margins on contents (body) of site */
 div.contents
 {
 	margin-top: 15px;
@@ -27,6 +36,7 @@ div.contents
 	margin-right: 10px;
 }
 
+/* Set styling/format for left navigation menu links */
 div.links
 {
 	float: left;
@@ -39,6 +49,7 @@ div.links
 	padding: 10px;
 }
 
+/* Set information styling/format */
 div.information
 {
 	height: 400px;
@@ -52,18 +63,21 @@ div.information
 	overflow: scroll;
 }
 
+/* Align images to the left */
 img.align-left
 {
 	display: inline;
 	padding: 20px;
 }
 
+/* Assign medium image size */
 img.medium
 {
 	height: 200px;
 	width: 200px;	
 }
 
+/* Left navigation menu label formatting */
 label.sideMenu
 {
 	font-size: 18pt;
@@ -71,6 +85,7 @@ label.sideMenu
 	padding: 10px;
 }
 
+/* Main menu label formatting */
 label.mainMenu
 {
 	font-size: 16pt;
@@ -78,91 +93,55 @@ label.mainMenu
 	padding-left: 20px;
 }
 
+/* Set navigation links formatting */
 a.links
 {
 	padding: 10px;
 	font-size: 18pt;
 }
 
+/* Set iTunes app badge formatting */
 a.app
 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
+/* In text links formatting */
 a.contentLinks
 {
 	font-size: 16pt;
 }
 
+/* Home page links to Linkedin, Facebook, Email, ... formatting */
 a.infoLinks
 {
 	font-size: 16pt;
 	padding-left: 20px;
 }
 
-a.infoLinks:link
+/* Set all links to White */
+a:link
 {
 	color: White;
 	text-decoration: none;
 }
 
-a.links:link
-{
-	color: White;
-	text-decoration: none;
-}
-
-a.contentLinks:link
-{
-	color: White;
-	text-decoration: none;
-}
-
+/* Set all visited links to stay White */
 a.infoLinks:visited
 {
 	color: White;
 }
 
-a.links:visited
-{
-	color: White;
-}
-
-a.contentLinks:visited
-{
-	color: White;
-}
-
-a.infoLinks:hover
+/* Set all links hovered color to Greenish Color */
+a:hover
 {
 	color: rgb(27,184,193);
 	text-decoration: underline;
 }
 
-a.links:hover
-{
-	color: rgb(27,184,193);
-	text-decoration: underline;
-}
-
-a.contentLinks:hover
-{
-	color: rgb(27,184,193);
-	text-decoration: underline;
-}
-
-a.infoLinks:active
-{
-	color: Blue;
-}
-
-a.links:active
-{
-	color: Blue;
-}
-
-a.contentLinks:active
+/* Set all active links to Blue */
+a:active
 {
 	color: Blue;
 }
