@@ -5,6 +5,10 @@
 // the equation by using Newton's method using double 
 // precision. I was given x0 to be 0.49 and to iterate
 // a number of 5 times.
+//
+// Equation: 
+//		f(x) = 2x(1-x^2+x)ln(x) = x^2-1
+//		in the interval [0,1]
 
 // Includes used
 #include <iostream>
