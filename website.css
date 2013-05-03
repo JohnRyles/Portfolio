@@ -1,0 +1,168 @@
+/* Background Color For Site */
+html
+{
+	background-color: Black;
+}
+
+header
+{
+	border-style: outset;
+	border-color: White;
+	background-color: Silver;
+	border-width: 5px;
+	margin: 10px;
+}
+
+h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	color: Black;
+}
+
+div.contents
+{
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+div.links
+{
+	float: left;
+	width: 200px;
+	height: 400px;
+	border-style: outset;
+	border-color: White;
+	border-width: 5px;
+	background-color: Silver;
+	padding: 10px;
+}
+
+div.information
+{
+	height: 400px;
+	border-style: outset;
+	border-color: White;
+	border-width: 5px;
+	background-color: Silver;
+	margin-left: 250px;
+	font-size: 16pt;
+	padding: 10px;
+	overflow: scroll;
+}
+
+img.align-left
+{
+	display: inline;
+	padding: 20px;
+}
+
+img.medium
+{
+	height: 200px;
+	width: 200px;	
+}
+
+label.sideMenu
+{
+	font-size: 18pt;
+	color: Black;
+	padding: 10px;
+}
+
+label.mainMenu
+{
+	font-size: 16pt;
+	color: Black;
+	padding-left: 20px;
+}
+
+a.links
+{
+	padding: 10px;
+	font-size: 18pt;
+}
+
+a.app
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a.contentLinks
+{
+	font-size: 16pt;
+}
+
+a.infoLinks
+{
+	font-size: 16pt;
+	padding-left: 20px;
+}
+
+a.infoLinks:link
+{
+	color: White;
+	text-decoration: none;
+}
+
+a.links:link
+{
+	color: White;
+	text-decoration: none;
+}
+
+a.contentLinks:link
+{
+	color: White;
+	text-decoration: none;
+}
+
+a.infoLinks:visited
+{
+	color: White;
+}
+
+a.links:visited
+{
+	color: White;
+}
+
+a.contentLinks:visited
+{
+	color: White;
+}
+
+a.infoLinks:hover
+{
+	color: rgb(27,184,193);
+	text-decoration: underline;
+}
+
+a.links:hover
+{
+	color: rgb(27,184,193);
+	text-decoration: underline;
+}
+
+a.contentLinks:hover
+{
+	color: rgb(27,184,193);
+	text-decoration: underline;
+}
+
+a.infoLinks:active
+{
+	color: Blue;
+}
+
+a.links:active
+{
+	color: Blue;
+}
+
+a.contentLinks:active
+{
+	color: Blue;
+}
